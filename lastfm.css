@@ -1,0 +1,9 @@
+@-moz-document domain("last.fm") {
+#qa-page-load,
+.lazy-features-footer,
+.feedback-message,
+.footer,
+.player-bar-inner-wrap {
+    display: none;
+}
+}
