@@ -1,0 +1,17 @@
+@-moz-document regexp(".+github\\.com\\/.+") {
+/* author: https://github.com/nooisy/secret-rice-stash */
+.avatar-user {
+    border-radius: 2% !important;
+}
+
+.user-status-circle-badge-container {
+    margin-bottom: -5px;
+    margin-left: -30px;
+}
+}
+
+@-moz-document regexp(".+github\\.com\\/.+\\/.+") {
+.avatar-user {
+    border-radius: 15% !important;
+}
+}
