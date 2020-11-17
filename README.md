@@ -1,7 +1,7 @@
 # mud's secret rice stash
 
 A collection of my personal web/browser tweaks, feel free to use and change anything.<br>
-I use Firefox, so things probably will break in a disastrous way when using other browsers.
+I use Firefox, so things will probably break in a disastrous way when using other browsers.
 
 ### 「 Other useful things and tips 」
 
