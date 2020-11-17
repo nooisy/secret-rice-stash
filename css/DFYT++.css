@@ -1,5 +1,8 @@
 @-moz-document domain("youtube.com") {
-/* to be used with:
+/*
+author: https://github.com/nooisy/secret-rice-stash
+
+to be used with:
 - yt dark mode (you can force this by adding a "ui.systemUsesDarkTheme" property set to int 1 in ff about:config)
 - https://github.com/lassekongo83/yt-classic-polymer
 - https://addons.mozilla.org/nl/firefox/addon/df-youtube/
