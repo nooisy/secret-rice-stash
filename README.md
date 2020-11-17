@@ -10,7 +10,7 @@ I use Firefox, so things will probably break in a disastrous way when using othe
 ```css
 @namespace url("http://www.w3.org/1999/xhtml");
 body > img.transparent { 
-  background: transparent !important 
+  background: transparent !important;
   }
 ```
 
