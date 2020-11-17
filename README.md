@@ -14,7 +14,7 @@ body > img.transparent {
   }
 ```
 
-#### Changing the [preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) used on webpages indepedent from OS/User agent settings:
+#### Changing the [preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) used on webpages indepedent from OS/User agent settings
 about:config > add new property called "ui.systemUsesDarkTheme" > set to *number* 1, boolean wont't work.
 
 #### Removing FF popup URL bar
