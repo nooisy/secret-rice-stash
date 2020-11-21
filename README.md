@@ -17,7 +17,21 @@ body > img.transparent {
 #### Changing the [preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) used on webpages indepedent from OS/User agent settings
 about:config > add new property called "ui.systemUsesDarkTheme" > set to *number* 1, boolean wont't work.
 
-#### Removing FF popup URL bar
+#### Overflow menu tweaks
+Horizontal overflow menu with buttons, no text.
+ -* https://github.com/TinyRaindrop/Firefox-UI-customization/blob/master/Navbar/overflow_menu_horizontal.css<br>
+
+Some add-ons are too wide to be displayed correctly in the overflow menu. You can change its width like this:<br>
+[userChrome.css](https://www.userchrome.org/how-create-userchrome-css.html)
+```css
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+#widget-overflow panelview {
+  min-width: 710px !important;
+  }
+```
+Let me know if there's a dynamic/responsive way.
+
+#### Removing FF "popout" URL bar
 https://github.com/WesleyBranton/Remove-Firefox-Megabar
 
 #### Windows 10 scrollbars in FF
