@@ -5,7 +5,7 @@ I use Firefox, so things will probably break in a disastrous way when using othe
 
 ### 「 Other useful things and tips 」
 
-#### Actual transparent background when viewing images in FF
+#### Actual transparent background when viewing transparent images in FF
 [userContent.css](http://kb.mozillazine.org/index.php?title=UserContent.css)
 ```css
 @namespace url("http://www.w3.org/1999/xhtml");
