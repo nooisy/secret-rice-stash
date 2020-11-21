@@ -21,7 +21,7 @@ about:config > add new property called "ui.systemUsesDarkTheme" > set to *number
 Horizontal overflow menu with buttons, no text:<br>
 https://github.com/TinyRaindrop/Firefox-UI-customization/blob/master/Navbar/overflow_menu_horizontal.css<br>
 
-Some add-ons are too wide to be displayed correctly in the overflow menu. You can change its width like this:<br>
+Some add-ons are too wide to be displayed in the overflow menu. You can change its width like this:<br>
 [userChrome.css](https://www.userchrome.org/how-create-userchrome-css.html)
 ```css
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
