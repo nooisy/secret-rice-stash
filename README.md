@@ -36,3 +36,14 @@ https://github.com/WesleyBranton/Remove-Firefox-Megabar
 
 #### Windows 10 scrollbars in FF
 https://github.com/endeavoursc/firefox-overlay-scrollbars-win10
+
+#### YT sign in popup
+Add the following lines to your adblocker filter:
+```js
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+```
