@@ -1,10 +1,16 @@
 @-moz-document domain("last.fm") {
 /* author: https://github.com/nooisy/secret-rice-stash */
+body {
+    font-size: 16px;
+}
+
 #qa-page-load,
 .lazy-features-footer,
 .feedback-message,
 .footer,
-.player-bar-inner-wrap {
+.player-bar-inner-wrap,
+.nag-bar {
     display: none;
 }
+
 }
