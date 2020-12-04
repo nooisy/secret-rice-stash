@@ -1,23 +1,12 @@
-@-moz-document domain("youtube.com") {
 /*
 author: https://github.com/nooisy/secret-rice-stash
 
 to be used with:
-- yt dark mode (you can force this by adding a "ui.systemUsesDarkTheme" property set to int 1 in ff about:config)
 - https://github.com/lassekongo83/yt-classic-polymer
 - https://addons.mozilla.org/nl/firefox/addon/df-youtube/
 */
 
-ytd-app {
-    background-color: #181818;
-}
-
-/*
-- yt logo + hamburger menu on the left
-- upload + login button on the right
-- keyboard icon in searchbar
-- search icon in searchbar
-*/
+/* topbar */
 #start.ytd-masthead,
 #end.ytd-masthead,
 #gs_st50,
@@ -28,6 +17,7 @@ ytd-app {
 /* fixing searchbox border after removing search icon*/
 #container.ytd-searchbox {
     border-right: solid 1px;
+    border-right-color: var(--ytd-searchbox-legacy-border-color);
     border-radius: 2px 2px 2px 2px;
 }
 
@@ -40,6 +30,4 @@ ytd-app {
 /* center text in searchbox */
 #container.ytd-searchbox {
     text-align: center;
-}
-
 }
