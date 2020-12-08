@@ -5,7 +5,7 @@ I use Firefox, so things will probably break in a disastrous way when using othe
 
 ### 「 Other useful things and tips 」
 
-#### > Actual transparent background when viewing transparent images in FF
+#### Actual transparent background when viewing transparent images in FF
 [userContent.css](http://kb.mozillazine.org/index.php?title=UserContent.css)
 ```css
 @namespace url("http://www.w3.org/1999/xhtml");
@@ -14,10 +14,10 @@ body > img.transparent {
   }
 ```
 
-#### > Changing the [preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) used on webpages indepedent from OS/User agent settings
+#### Changing the [preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) used on webpages indepedent from OS/User agent settings
 about:config > add new property called "ui.systemUsesDarkTheme" > set to *number* 1, boolean wont't work.
-
-#### > Overflow menu tweaks
+<br>
+#### Overflow menu tweaks
 Horizontal overflow menu with buttons, no text:<br>
 https://github.com/TinyRaindrop/Firefox-UI-customization/blob/master/Navbar/overflow_menu_horizontal.css<br>
 
@@ -31,13 +31,13 @@ Some add-ons are too wide to be displayed in the overflow menu. You can change i
 ```
 Let me know if there's a dynamic/responsive way.
 
-#### > Removing FF "popout" URL bar
+#### Removing FF "popout" URL bar
 https://github.com/WesleyBranton/Remove-Firefox-Megabar
 
-#### > Windows 10 scrollbars in FF
+#### Windows 10 scrollbars in FF
 https://github.com/endeavoursc/firefox-overlay-scrollbars-win10
 
-#### > YT sign in popup
+#### YT sign in popup
 Add the following lines to your adblocker filter:
 ```js
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
